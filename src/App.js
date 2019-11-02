@@ -1,26 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import { FormattedMessage } from 'react-intl';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <p>
+                    <FormattedMessage id="helloWorld" defaultMessage="Hello World!" />
+                </p>
+            </header>
+        </div>
+    );
 }
 
 export default App;

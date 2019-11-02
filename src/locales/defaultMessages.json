@@ -1,0 +1,11 @@
+[
+    {
+        "descriptors": [
+            {
+                "defaultMessage": "Hello World!",
+                "id": "helloWorld"
+            }
+        ],
+        "path": "src/App.json"
+    }
+]
